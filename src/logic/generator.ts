@@ -25,8 +25,6 @@ export function generatePuzzle(
   allWords: string[],
   spangram: string
 ): Puzzle | null {
-  const targetChars = rows * cols;
-
   let grid: string[][] = Array.from({ length: rows }, () => Array(cols).fill(""));
   let visited = Array.from({ length: rows }, () => Array(cols).fill(false));
   const diagConnections = new Set<string>();

@@ -28,7 +28,7 @@ export function useGame(grade: string) {
   const [nonThemeWordsFound, setNonThemeWordsFound] = useState<string[]>([]);
 
   const startNewGame = useCallback(() => {
-    const gradePuzzles = (staticPuzzles as any)[grade] || staticPuzzles.kindergarten;
+    const gradePuzzles = (staticPuzzles as any)[grade] || staticPuzzles.grade1;
     
     // Pick a random puzzle from the pre-generated set
     if (gradePuzzles.length > 0) {
