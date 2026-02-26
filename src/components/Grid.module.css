@@ -1,15 +1,21 @@
+:root {
+  --cell-size: clamp(40px, 12vw, 65px);
+  --cell-gap: clamp(4px, 1.5vw, 8px);
+}
+
 .gridContainer {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: var(--cell-gap);
   background-color: #f8f9fa;
-  padding: 16px;
+  padding: clamp(8px, 3vw, 16px);
   border-radius: 12px;
   position: relative;
   user-select: none;
   touch-action: none;
   width: fit-content;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .lines {
@@ -51,12 +57,12 @@
 
 .row {
   display: flex;
-  gap: 8px;
+  gap: var(--cell-gap);
 }
 
 .cell {
-  width: 65px;
-  height: 65px;
+  width: var(--cell-size);
+  height: var(--cell-size);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +70,7 @@
   border: 2px solid #e0e0e0;
   border-radius: 50%;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: calc(var(--cell-size) * 0.45);
   color: #333;
   cursor: pointer;
   transition: all 0.2s ease;

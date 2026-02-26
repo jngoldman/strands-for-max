@@ -60,7 +60,7 @@ const App: React.FC = () => {
             <option value="grade1">1st Grade</option>
             <option value="grade2">2nd Grade</option>
           </select>
-          <button onClick={startNewGame}>New Game</button>
+          <button className="new-game-button" onClick={startNewGame}>New Game</button>
         </div>
       </header>
 
