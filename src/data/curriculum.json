@@ -1,0 +1,60 @@
+{
+  "grade1": [
+    {
+      "theme": "Color Box",
+      "clue": "Everything you see",
+      "words": ["RED", "BLUE", "PINK", "TAN", "GRAY", "GOLD", "WHITE", "BLACK", "GREEN", "BROWN", "PURPLE", "SILVER"],
+      "spangram": "RAINBOW"
+    },
+    {
+      "theme": "My Body",
+      "clue": "From head to toe",
+      "words": ["HEAD", "ARM", "LEG", "FOOT", "HAND", "EYE", "NOSE", "EAR", "CHIN", "NECK", "BACK", "KNEE", "TOE", "CHEEK"],
+      "spangram": "MYSELF"
+    },
+    {
+      "theme": "Farm Life",
+      "clue": "Old MacDonald",
+      "words": ["PIG", "COW", "CAT", "DOG", "HEN", "DUCK", "GOAT", "BARN", "FARM", "HAY", "MUD", "POND", "GOOSE", "SHEEP"],
+      "spangram": "ANIMALS"
+    },
+    {
+      "theme": "Fruit Stand",
+      "clue": "Sweet and healthy",
+      "words": ["APPLE", "GRAPE", "PEACH", "PEAR", "PLUM", "LEMON", "LIME", "BERRY", "MELON", "KIWI", "CHERRY", "BANANA"],
+      "spangram": "FRUITS"
+    },
+    {
+      "theme": "Weather Day",
+      "clue": "Look at the sky",
+      "words": ["SUNNY", "RAINY", "SNOWY", "WINDY", "STORM", "CLOUD", "FOGGY", "COLD", "HOT", "WARM", "MIST", "HAIL"],
+      "spangram": "WEATHER"
+    },
+    {
+      "theme": "Action Time",
+      "clue": "Things we can do",
+      "words": ["JUMP", "SING", "DANCE", "SWIM", "PLAY", "READ", "TALK", "WALK", "RUN", "KICK", "DRAW", "WRITE", "SLEEP"],
+      "spangram": "MOVING"
+    }
+  ],
+  "grade2": [
+    {
+      "theme": "Outer Space",
+      "clue": "Beyond our world",
+      "words": ["PLANET", "STAR", "MOON", "SUN", "MARS", "SPACE", "ROCKET", "COMET", "ALIEN", "DUST", "SKY", "ORBIT", "GALAXY"],
+      "spangram": "UNIVERSE"
+    },
+    {
+      "theme": "Under the Sea",
+      "clue": "Deep blue wonders",
+      "words": ["FISH", "SHARK", "WHALE", "CRAB", "SHELL", "SAND", "WAVE", "WATER", "SALT", "REEF", "KELP", "CORAL", "SQUID"],
+      "spangram": "OCEANLIFE"
+    },
+    {
+      "theme": "In the School",
+      "clue": "Ready to learn",
+      "words": ["BOOKS", "DESK", "PAPER", "PEN", "SPELL", "CHECK", "READ", "WRITE", "PENCIL", "LEARN", "STORY", "WORDS", "RULES"],
+      "spangram": "LEARNING"
+    }
+  ]
+}
